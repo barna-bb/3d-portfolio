@@ -9,7 +9,7 @@ function App() {
     <main className='bg-slate-300/20 h-full'>
       <Router>
         <Navbar />
-        <AnimatePresence mode="wait" initial={false}>
+        <AnimatePresence mode="wait">
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />

@@ -5,6 +5,7 @@ import Fox from '../models/Fox';
 import Loader from "../components/Loader";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
+import Transition from "../components/Transition";
 
 function Contact() {
 
@@ -64,6 +65,7 @@ function Contact() {
   };
 
   return (
+    <Transition>
     <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
       {alert.show && <Alert {...alert} />}
       <div className="flex-1 min-w-[50%] flex flex-col">
@@ -121,6 +123,7 @@ function Contact() {
         </Canvas>
       </div>
     </section>
+    </Transition>
   );
 }
 

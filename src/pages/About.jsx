@@ -2,9 +2,11 @@ import { skills, experiences } from "../constants";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA';
+import Transition from "../components/Transition";
 
 function About() {
   return (
+    <Transition>
     <section className="max-container">
       <h1 className="head-text">
         Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">
@@ -75,6 +77,7 @@ function About() {
       <hr className="border-slate-200" />
       <CTA />
     </section>
+    </Transition>
   );
 }
 

@@ -3,8 +3,11 @@ import { projects } from "../constants";
 import { Link } from "react-router-dom";
 import CTA from "../components/CTA";
 
+import Transition from '../components/Transition';
+
 function Projects() {
   return (
+    <Transition>
     <section className="max-container">
       <h1 className="head-text">
         My <span className="blue-gradient_text font-semibold drop-shadow">
@@ -45,6 +48,7 @@ function Projects() {
       <hr className="border-slate-200" />
       <CTA />
     </section>
+    </Transition>
   );
 }
 
