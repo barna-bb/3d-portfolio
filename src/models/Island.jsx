@@ -84,10 +84,10 @@ function Island({ isRotating, setIsRotating, setCurrentStage, ...props }) {
         }
     
         if (delta < 0) {
-            islandRef.current.rotation.y += 0.01 * Math.PI;
+            islandRef.current.rotation.y += 0.015 * Math.PI;
             rotationSpeed.current = 0.01;
         } else {
-            islandRef.current.rotation.y -= 0.01 * Math.PI;
+            islandRef.current.rotation.y -= 0.015 * Math.PI;
             rotationSpeed.current = -0.01;
         }
 
