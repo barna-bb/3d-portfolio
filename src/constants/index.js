@@ -1,29 +1,32 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { hya, hhp } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
-    express,
     git,
     github,
     html,
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    blender,
+    c,
+    cpp,
+    django,
+    expo,
+    firebase,
+    go,
+    graphql,
+    postgresql,
+    python,
+    rust,
+    solidity,
+    threejs,
+    vite
 } from "../assets/icons";
 
 export const skills = [
@@ -31,11 +34,6 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
     },
     {
         imageUrl: git,
@@ -63,16 +61,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -88,16 +76,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -106,61 +84,106 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: blender,
+        name: "Blender",
+        type: "Graphic Design",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "Backend",
+    },
+    {
+        imageUrl: cpp,
+        name: "Cpp",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
+        imageUrl: expo,
+        name: "Expo",
+        type: "Frontend",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Database",
+    },
+    {
+        imageUrl: go,
+        name: "Go",
+        type: "Backend",
+    },
+    {
+        imageUrl: graphql,
+        name: "Graphql",
+        type: "Backend",
+    },
+    {
+        imageUrl: postgresql,
+        name: "Postgresql",
+        type: "Database",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: rust,
+        name: "Rust",
+        type: "Backend",
+    },
+    {
+        imageUrl: solidity,
+        name: "Solidity",
+        type: "Backend",
+    },
+    {
+        imageUrl: threejs,
+        name: "Threejs",
+        type: "Frontend",
+    },
+    {
+        imageUrl: vite,
+        name: "Vite",
+        type: "Frontend",
+    }    
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Frontend Developer",
+        company_name: "Hungarian Youth Association",
+        icon: hya,
+        iconBg: "#f2dddd",
+        date: "November 2021 - November 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Collaborating with the graphics team in the website design process.",
+            "Utilizing 2-week sprints to effectively bring the design to life through development efforts using React.js and other related technologies.",
+            "Developing and maintaining versatile and responsive components and functionalities to enhance user experience.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Full Stack Developer",
+        company_name: "Hungary Hiring Platform",
+        icon: hhp,
+        iconBg: "#ccf2f2",
+        date: "December 2021 - May 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Utilizing React.js for frontend development in the creation of a dynamic recruitment platform.",
+            "Implementing Python for AI functionalities, including candidate filtering and matching, enhancing the platform's accuracy and minimizing overhead costs.",
+            "Integrating Firebase for streamlined data management, ensuring seamless storage and retrieval of critical information.",
+            "Collaborating with business and finance teams to align technical solutions with project goals.",
+            "Ensuring responsive design and cross-browser compatibility for optimal user experience.",
+            "Contributing to code reviews and provided constructive feedback to maintain code quality."
+        ]
     },
 ];
 
@@ -173,56 +196,21 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/barna-bb',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/barnabas-banfalvi',
     }
 ];
 
 export const projects = [
-    {
+    /* {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Amazon Price Tracker',
         description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
         link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    } */
 ];

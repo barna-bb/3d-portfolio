@@ -15,28 +15,43 @@ const renderContent = {
     1: (
         <h1 className="sm:text-xl sm:leading-snug text-center 
         neo-brutalism-blue py-4 px-8 text-white mx-5">
-            Hi, I am <span className="font-semibold">Barna</span> 👋
+            Hi, I'm <span className="font-semibold">Barna</span> 👋
             <br />
-            A Software Engineer based in London.
+            A Software Engineer based in London
         </h1>
     ),
     2: (
         <InfoBox
-            text="IM SMART (complete this section at HomeInfo.jsx)"
+            text={
+                <p>
+                    Worked with many companies <br />
+                    and gathered many skills along the way
+                </p>
+            }
             link="/about"
             btnText="Learn more"
         />
     ),
     3: (
         <InfoBox
-            text="IVE MADE STUFF"
+            text={
+                <p>
+                    Guiding projects to success has been a thrilling journey. <br />
+                    Curious about the impact?
+                </p>
+            }
             link="/projects"
             btnText="Visit my portfolio"
         />
     ),
     4: (
         <InfoBox
-            text="HIRE ME"
+            text={
+                <p>
+                    Need a project done or looking for a dev? <br />
+                    I'm just a few keystrokes away!
+                </p>
+            }
             link="/contact"
             btnText="Let's talk"
         />
