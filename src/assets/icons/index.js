@@ -29,6 +29,12 @@ import rust from './rust.svg'
 import solidity from './solidity.svg'
 import threejs from './threejs.svg'
 import vite from './vite.svg'
+import bootstrap from './bootstrap.svg'
+
+import gym from './gym.svg'
+import deutschebank from './deutschebank.svg'
+import ai from './ai.svg'
+import ecommerce from './ecommerce.svg'
 
 export {
     css,
@@ -60,5 +66,10 @@ export {
     rust,
     solidity,
     threejs,
-    vite
+    vite,
+    bootstrap,
+    gym,
+    deutschebank,
+    ai,
+    ecommerce
 }
