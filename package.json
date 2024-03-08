@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://barna-bb.github.io/3d-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -35,6 +36,5 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.4"
-  },
-  "homepage": "http://barna-bb.github.io/3d-portfolio"
+  }
 }
