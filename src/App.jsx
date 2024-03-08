@@ -1,4 +1,4 @@
-import { Route, HashRouter as Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { Home, About, Projects, Contact } from './pages/index';
 
@@ -7,8 +7,7 @@ import { AnimatePresence } from 'framer-motion';
 function App() {
   return (
     <main className='bg-slate-300/20 h-full'>
-      <Router>
-        <Navbar />
+      <Navbar />
         <AnimatePresence mode="wait">
           <Routes>
             <Route path='/' element={<Home />} />
@@ -17,7 +16,6 @@ function App() {
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </AnimatePresence>
-      </Router>
     </main>
   );
 }
