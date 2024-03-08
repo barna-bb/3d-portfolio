@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "http://barna-bb.github.io/3d-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
