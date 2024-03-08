@@ -15,7 +15,7 @@ function Projects() {
         </span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Done lotta projects n stuff...lot more on my github!...</p>
+        <p>Check out some of my recent projects! From web  to mobile development, I've been keeping busy. For more, head over to my <Link to="https://github.com/barna-bb">GitHub</Link>!</p>
       </div>
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (

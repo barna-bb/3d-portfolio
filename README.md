@@ -1,9 +1,9 @@
-#
+# 3D Portfolio Website
 
 ## Description
 ...
 
-## Technologies
+## Technology Stack & Tools
 - React.js and Vite
 - Tailwind CSS
 - Three.js, react-three/fiber, drei

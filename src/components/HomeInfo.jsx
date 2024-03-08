@@ -24,7 +24,7 @@ const renderContent = {
         <InfoBox
             text={
                 <p>
-                    Worked with many companies <br />
+                    Worked with various companies <br />
                     and gathered many skills along the way
                 </p>
             }

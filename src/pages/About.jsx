@@ -14,7 +14,7 @@ function About() {
         </span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Software Engineer based in London, specializing in...</p>
+        <p>Software Engineer based in London, specializing in Frontend and Full Stack Development.</p>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
