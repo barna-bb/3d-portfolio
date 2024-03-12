@@ -1,16 +1,19 @@
 # 3D Portfolio Website
 
 ## Description
-...
+A portfolio website implementing the newest 3D web design technologies and showcasing work experience and past projects.
+Visit [this link](https://barna-bb.github.io/3d-portfolio/) to inspect the finished website.
 
 ## Technology Stack & Tools
-- React.js and Vite
-- Tailwind CSS
-- Three.js, react-three/fiber, drei
-- Framer Motion
+- [Vite](https://vitejs.dev/) (React & Testing)
+- [Tailwind CSS](https://tailwindcss.com/) (CSS Framework)
+- [Three.js](https://threejs.org/) (3D Framework)
+- [Framer Motion](https://www.framer.com/motion/) (Animation Framework)
 
-## TODO
+<!-- ## TODO
 - [Framer Motion 3D](https://www.framer.com/motion/three-introduction/) - button animations
+- Form Spam Protection
+- DDOS Protection -->
 
 <!-- ## Acknowledgement
 This project is based on [this video](https://www.youtube.com/watch?v=FkowOdMjvYo&list=PLMw0JQBo7HfqY9t3zlwHNbRIOV_gt1_pX&index=52)

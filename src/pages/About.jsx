@@ -36,7 +36,7 @@ function About() {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>I've worked with... and .... Here's the rundown:</p>
+          <p>I've worked with multiple different companies. Here's the rundown:</p>
         </div>
         <div className="mt-12 flex">
             <VerticalTimeline>
