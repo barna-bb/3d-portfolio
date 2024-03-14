@@ -20,6 +20,5 @@ Visit [this link](https://barna-bb.github.io/3d-portfolio/) to inspect the finis
 - Form Spam Protection
 - DDOS Protection -->
 
-<!-- ## Acknowledgement
-This project is based on [this video](https://www.youtube.com/watch?v=FkowOdMjvYo&list=PLMw0JQBo7HfqY9t3zlwHNbRIOV_gt1_pX&index=52)
- -->
+## Acknowledgement
+This project was made possible with the help of [this video](https://www.youtube.com/watch?v=FkowOdMjvYo&list=PLMw0JQBo7HfqY9t3zlwHNbRIOV_gt1_pX&index=52)
