@@ -156,11 +156,11 @@ export const skills = [
         name: "Django",
         type: "Backend",
     }, */
-    {
+    /* {
         imageUrl: php,
         name: "PHP",
         type: "Backend",
-    },
+    }, */
     {
         imageUrl: solidity,
         name: "Solidity",
