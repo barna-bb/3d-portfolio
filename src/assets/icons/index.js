@@ -36,6 +36,8 @@ import deutschebank from './deutschebank.svg'
 import ai from './ai.svg'
 import ecommerce from './ecommerce.svg'
 
+import php from './php.svg'
+
 export {
     css,
     git,
@@ -71,5 +73,6 @@ export {
     gym,
     deutschebank,
     ai,
-    ecommerce
+    ecommerce,
+    php
 }

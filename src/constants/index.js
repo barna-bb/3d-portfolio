@@ -31,7 +31,8 @@ import {
     gym,
     deutschebank,
     ai,
-    ecommerce
+    ecommerce,
+    php
 } from "../assets/icons";
 
 export const skills = [
@@ -155,6 +156,11 @@ export const skills = [
         name: "Django",
         type: "Backend",
     }, */
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
+    },
     {
         imageUrl: solidity,
         name: "Solidity",
